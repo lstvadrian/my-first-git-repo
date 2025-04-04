@@ -9,7 +9,7 @@ on:
     test:
       runs-on: ubuntu-latest
       container:
-        image: node:20
+        image: node:20.13
       steps:
         - uses: action/checkout@v3
           with:
